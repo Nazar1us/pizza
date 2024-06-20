@@ -1,11 +1,11 @@
-
+import RootLayout from "./components/layouts/RootLayout"
 
 function App() {
 
 
   return (
     <div>
-      <h1>Hello World</h1>
+      <RootLayout />
     </div>
   )
 }
