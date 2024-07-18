@@ -1,13 +1,6 @@
-import RootLayout from "./components/layouts/RootLayout"
+import { RouterProvider } from 'react-router-dom'
+import { router } from '@/routes/RootRouter.jsx'
 
-function App() {
-
-
-  return (
-    <div>
-      <RootLayout />
-    </div>
-  )
-}
+const App = () => <RouterProvider router={router} />
 
 export default App
